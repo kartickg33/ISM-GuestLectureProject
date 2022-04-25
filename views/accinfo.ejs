@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./admin.css" />
+    <title>Admin Portal</title>
+</head>
+<body>
+    <h1>MegaSeal Admin Portal</h1>
+    <p id ="tr"></p>
+
+    <p>Enter Account Information (In Form Of UPI ID , Mobile Number , IFSC Code): </p>
+    <form action="fetchAccinfo" method="post">
+
+        <input type="text" id ="info" name="info" placeholder="Enter the Account Info" required>
+        <br>
+        <input type="submit" value="Submit" id="signup">
+    </form>
+
+</body>
+
+</html>
